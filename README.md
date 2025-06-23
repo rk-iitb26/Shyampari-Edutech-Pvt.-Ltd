@@ -4,7 +4,7 @@ Private(as of now) repository of official website of Shyampari Edutech Pvt. Ltd.
 Main contributors:
   1) [Roveen Kumar](https://github.com/rk-iitb26)
   2) [Mandeep](https://github.com/coder-zen)
-  3) 
+  3) [Ashu Raj](https://github.com/Runtime17)
   4) 
   5) 
      
