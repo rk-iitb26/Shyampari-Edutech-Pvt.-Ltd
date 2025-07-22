@@ -37,7 +37,7 @@ function Footer() {
                         <ul className="space-y-2">
                             <li>
                                 <a href="tel:+911234567890" className="text-gray-400 hover:text-white transition-colors duration-200">
-                                    <i className="fas fa-phone mr-2"></i>+91 12345 67890
+                                    <i className="fas fa-phone mr-2"></i>+917040272830
                                 </a>
                             </li>
                             <li>
@@ -47,7 +47,7 @@ function Footer() {
                             </li>
                             <li>
                                 <span className="text-gray-400">
-                                    <i className="fas fa-map-marker-alt mr-2"></i>123 Edutech Road, Knowledge City, Pune, India
+                                    <i className="fas fa-map-marker-alt mr-2"></i>Pune , Maharashtra ,India 412307
                                 </span>
                             </li>
                         </ul>
@@ -71,7 +71,7 @@ function Footer() {
                             </a>
                         </div>
                         {/* Optional: Newsletter Signup */}
-                        {/* <h4 className="text-lg font-semibold mt-8 mb-4 text-white">Newsletter</h4>
+                        <h4 className="text-lg font-semibold mt-8 mb-4 text-white">Newsletter</h4>
             <form>
               <input
                 type="email"
@@ -84,7 +84,7 @@ function Footer() {
               >
                 Subscribe
               </button>
-            </form> */}
+            </form>
                     </div>
 
                 </div>
