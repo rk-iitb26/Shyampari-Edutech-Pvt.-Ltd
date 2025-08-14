@@ -1,0 +1,1001 @@
+class,board,subjects,mode,location,salary
+6,CBSE,"Maths, Science",Offline,Magarpatta,5500
+10,State,"Science, Social Studies",Offline,Magarpatta,4500
+9,ICSE,"Maths, Science",Offline,Mumbai,5000
+7,CBSE,"Maths, Science",Offline,Hadapsar,5500
+6,CBSE,"Maths, Science",Offline,Hadapsar,4000
+11,ICSE,"Physics, Chemistry, Biology",Offline,Kothrud,4500
+6,ICSE,All Subjects,Offline,Kothrud,4000
+10,State,"Science, Social Studies",Offline,Magarpatta,5000
+7,CBSE,"Maths, Science",Offline,Magarpatta,5500
+7,State,"Science, Social Studies",Offline,Magarpatta,3500
+11,ICSE,"Physics, Chemistry, Maths",Offline,Dubai,5500
+4,State,"Maths, Science",Offline,Mumbai,5000
+6,CBSE,"Maths, Science",Offline,Mumbai,5500
+3,ICSE,"Maths, Science",Offline,Dubai,6000
+12,ICSE,"Economics, Accountancy",Online,Online,5500
+11,CBSE,"Economics, Accountancy",Offline,Hadapsar,3000
+2,ICSE,"Maths, Science",Offline,Magarpatta,5500
+8,State,"Maths, Science",Offline,Hadapsar,5500
+6,ICSE,"Maths, Science",Offline,Hadapsar,4000
+2,State,"Maths, Hindi",Offline,Magarpatta,3500
+11,CBSE,"Physics, Chemistry, Maths",Offline,Magarpatta,4000
+1,ICSE,"Science, English",Offline,Hadapsar,4000
+8,State,"Maths, Science",Offline,Dubai,4500
+12,State,"Economics, Accountancy, Business Studies",Offline,Magarpatta,3000
+8,ICSE,"Maths, Science",Online,Online,4000
+9,ICSE,"Maths, Science",Offline,Kothrud,6000
+7,CBSE,"Maths, Computer",Online,Online,5000
+9,CBSE,"Maths, Science",Online,Online,6000
+9,CBSE,"Maths, Science",Offline,Kothrud,5000
+9,State,"Maths, Science",Offline,Kothrud,5500
+10,CBSE,"Maths, Science",Offline,Dubai,4500
+8,State,All Subjects,Offline,Magarpatta,3000
+10,International,"Maths, Science",Offline,Magarpatta,6000
+3,CBSE,"Maths, Science",Online,Online,3000
+5,CBSE,"Maths, Science",Offline,Kothrud,6000
+10,CBSE,"Maths, Science",Offline,Magarpatta,5500
+6,International,"Maths, Social Studies",Offline,Kothrud,5000
+11,State,"Economics, Accountancy",Offline,Hadapsar,3500
+7,CBSE,"Maths, Computer",Online,Online,4500
+6,CBSE,"Maths, Science",Offline,Kothrud,6000
+10,CBSE,"Maths, Science",Offline,Magarpatta,6000
+4,State,"Science, Social Studies",Online,Online,5500
+8,ICSE,"Science, Social Studies",Offline,Kothrud,4500
+10,International,"Maths, English",Offline,Hadapsar,5000
+7,CBSE,"Maths, Science",Offline,Kothrud,5000
+11,CBSE,"Economics, Accountancy, Business Studies",Offline,Magarpatta,6000
+2,International,"Maths, Science",Offline,Kothrud,3500
+10,ICSE,"Maths, Science",Offline,Magarpatta,3500
+9,State,All Subjects,Offline,Kothrud,3000
+6,CBSE,"Maths, Science",Online,Online,4500
+8,CBSE,All Subjects,Offline,Magarpatta,4500
+6,CBSE,"Maths, English",Offline,Hadapsar,5000
+9,ICSE,"Science, English",Offline,Kothrud,3000
+3,International,"Maths, Hindi",Online,Online,5500
+8,International,"Maths, Science",Offline,Mumbai,4500
+9,CBSE,"Maths, Science",Offline,Kothrud,3000
+4,State,All Subjects,Online,Online,3000
+10,International,"Maths, Science",Online,Online,6000
+6,ICSE,"Maths, English",Offline,Kothrud,5000
+4,State,"Maths, Science",Offline,Dubai,3000
+2,International,"Maths, Science",Offline,Kothrud,3500
+6,ICSE,"Maths, English",Offline,Magarpatta,3500
+12,CBSE,"Economics, Accountancy, Business Studies",Online,Online,4000
+7,CBSE,"Maths, Computer",Offline,Hadapsar,5000
+4,CBSE,"Maths, Science",Offline,Magarpatta,6000
+12,State,"Physics, Chemistry, Biology",Offline,Magarpatta,5500
+10,CBSE,"Maths, Science",Offline,Hadapsar,4000
+8,ICSE,"Maths, Science",Offline,Hadapsar,3500
+2,State,"Science, English",Offline,Kothrud,6000
+7,CBSE,"Maths, Science",Online,Online,4000
+4,CBSE,"Maths, Science",Offline,Dubai,5000
+8,CBSE,"Science, Hindi",Offline,Magarpatta,6000
+9,International,"Science, Social Studies",Online,Online,5000
+9,CBSE,"Maths, Science",Offline,Hadapsar,3000
+6,CBSE,"Maths, Science",Offline,Kothrud,4500
+8,ICSE,"Maths, Science",Offline,Magarpatta,3000
+6,CBSE,"Maths, Science",Offline,Kothrud,5000
+11,State,"Physics, Chemistry, Biology",Offline,Hadapsar,6000
+9,CBSE,All Subjects,Offline,Magarpatta,3500
+8,State,"Maths, Science",Offline,Kothrud,5500
+10,State,"Maths, Science",Online,Online,3500
+9,CBSE,"Maths, Science",Offline,Mumbai,6000
+11,CBSE,"Physics, Chemistry, Biology",Offline,Mumbai,3000
+8,International,"Maths, Science",Online,Online,5500
+7,CBSE,All Subjects,Offline,Hadapsar,6000
+9,CBSE,"Maths, English",Offline,Mumbai,5000
+8,CBSE,All Subjects,Offline,Kothrud,3500
+1,State,"Science, Hindi",Online,Online,5000
+6,CBSE,"Maths, Science",Offline,Magarpatta,5500
+7,State,"Maths, Hindi",Offline,Hadapsar,5500
+1,International,All Subjects,Offline,Kothrud,3500
+8,State,"Maths, Science",Offline,Magarpatta,5000
+6,CBSE,"Science, English",Offline,Magarpatta,4000
+7,State,"Maths, Computer",Offline,Magarpatta,5000
+10,International,All Subjects,Offline,Magarpatta,5500
+9,CBSE,"Maths, Computer",Offline,Hadapsar,5000
+6,CBSE,"Science, Social Studies",Offline,Dubai,6000
+3,State,"Science, Hindi",Offline,Kothrud,3000
+3,ICSE,"Maths, Science",Offline,Hadapsar,4000
+1,State,"Maths, Science",Offline,Kothrud,4500
+5,ICSE,All Subjects,Offline,Magarpatta,6000
+7,State,"Maths, Science",Online,Online,3000
+6,State,"Maths, Science",Offline,Hadapsar,4500
+7,State,"Maths, Science",Offline,Kothrud,3500
+6,CBSE,"Maths, Science",Offline,Hadapsar,4500
+7,CBSE,"Maths, Science",Offline,Hadapsar,6000
+6,State,"Science, English",Offline,Hadapsar,5000
+8,ICSE,"Maths, Science",Online,Online,6000
+2,CBSE,"Maths, Science",Offline,Mumbai,4500
+1,CBSE,"Maths, Hindi",Offline,Hadapsar,5500
+9,CBSE,"Science, Social Studies",Offline,Kothrud,3000
+5,CBSE,"Maths, Computer",Online,Online,3000
+3,CBSE,"Maths, Science",Online,Online,4500
+8,State,"Maths, Social Studies",Offline,Magarpatta,3000
+6,State,All Subjects,Offline,Mumbai,5500
+12,ICSE,"Physics, Chemistry, Biology, Maths",Offline,Kothrud,6000
+3,International,"Maths, Science",Offline,Kothrud,3000
+1,CBSE,"Maths, English",Offline,Magarpatta,4500
+3,State,"Maths, Science",Offline,Mumbai,4000
+5,CBSE,All Subjects,Offline,Hadapsar,4000
+9,CBSE,"Maths, Science",Offline,Magarpatta,3500
+8,State,"Science, Hindi",Offline,Magarpatta,3000
+3,State,"Science, Computer",Offline,Magarpatta,6000
+1,ICSE,"Maths, Social Studies",Online,Online,4500
+5,CBSE,"Maths, Science",Offline,Hadapsar,3000
+8,State,All Subjects,Offline,Magarpatta,5000
+6,State,"Maths, Science",Offline,Mumbai,5500
+7,State,"Science, English",Offline,Magarpatta,3000
+9,CBSE,All Subjects,Online,Online,3000
+9,State,"Maths, Social Studies",Offline,Dubai,4000
+7,State,"Maths, Science",Offline,Kothrud,5500
+8,ICSE,"Maths, Science",Offline,Hadapsar,4500
+10,State,"Maths, Science",Offline,Kothrud,3000
+6,CBSE,"Maths, Science",Offline,Kothrud,4000
+9,State,"Maths, Science",Offline,Magarpatta,3500
+10,State,"Maths, Hindi",Offline,Mumbai,5500
+4,State,"Maths, Science",Offline,Dubai,4000
+5,ICSE,"Maths, Social Studies",Offline,Dubai,4000
+6,ICSE,"Maths, Science",Offline,Hadapsar,6000
+8,ICSE,"Maths, Hindi",Offline,Hadapsar,4000
+9,CBSE,"Maths, Science",Offline,Hadapsar,6000
+7,CBSE,"Maths, Science",Online,Online,3000
+4,State,All Subjects,Offline,Dubai,3000
+8,State,"Science, Hindi",Online,Online,3500
+6,ICSE,"Maths, Science",Offline,Magarpatta,5000
+10,State,All Subjects,Offline,Hadapsar,5000
+12,State,"Economics, Accountancy",Offline,Mumbai,5000
+2,State,"Maths, English",Offline,Magarpatta,6000
+7,State,"Science, Social Studies",Online,Online,5500
+8,State,"Maths, Science",Offline,Magarpatta,5500
+11,CBSE,"Physics, Chemistry, Biology, Maths",Offline,Hadapsar,3500
+6,CBSE,"Maths, Science",Offline,Hadapsar,5500
+8,ICSE,"Maths, Computer",Offline,Magarpatta,5000
+8,ICSE,"Maths, Social Studies",Offline,Magarpatta,5000
+10,CBSE,"Maths, Science",Offline,Kothrud,4000
+7,State,"Maths, Science",Offline,Hadapsar,5500
+6,CBSE,"Science, English",Online,Online,3000
+1,CBSE,All Subjects,Offline,Kothrud,3000
+1,State,"Maths, Science",Offline,Mumbai,4000
+10,CBSE,"Maths, Science",Online,Online,4000
+8,CBSE,"Maths, Science",Offline,Kothrud,4000
+7,CBSE,"Maths, Science",Offline,Mumbai,3000
+3,CBSE,All Subjects,Offline,Hadapsar,5000
+6,State,All Subjects,Offline,Hadapsar,4000
+6,International,"Maths, Computer",Offline,Hadapsar,3500
+6,ICSE,"Maths, Science",Offline,Mumbai,6000
+7,State,"Maths, Science",Online,Online,4000
+5,ICSE,"Maths, Science",Online,Online,6000
+1,CBSE,"Maths, Science",Offline,Magarpatta,4500
+10,ICSE,"Maths, Science",Offline,Kothrud,4000
+7,ICSE,"Maths, Science",Offline,Magarpatta,3000
+8,CBSE,"Maths, Science",Offline,Kothrud,5500
+9,State,"Maths, Science",Offline,Kothrud,4000
+12,State,"Physics, Chemistry, Biology, Maths",Offline,Kothrud,5500
+7,CBSE,"Maths, Science",Offline,Magarpatta,4500
+10,CBSE,"Maths, Hindi",Offline,Hadapsar,3500
+9,State,"Maths, Science",Offline,Hadapsar,5500
+9,State,"Maths, Science",Offline,Mumbai,6000
+10,ICSE,"Maths, Science",Offline,Hadapsar,5000
+8,International,"Maths, Science",Offline,Kothrud,4000
+6,CBSE,"Maths, Science",Offline,Magarpatta,4500
+2,State,"Maths, Science",Offline,Magarpatta,4500
+3,State,"Maths, Science",Offline,Magarpatta,5500
+9,State,"Maths, Science",Offline,Kothrud,3500
+5,International,"Maths, Science",Offline,Kothrud,3000
+9,State,"Maths, Science",Offline,Kothrud,4000
+9,CBSE,All Subjects,Offline,Mumbai,4500
+9,State,All Subjects,Offline,Hadapsar,3500
+2,CBSE,"Maths, Science",Offline,Kothrud,5000
+2,CBSE,"Maths, Science",Offline,Magarpatta,4500
+12,ICSE,"Physics, Chemistry, Biology",Offline,Magarpatta,3500
+5,State,"Science, Hindi",Online,Online,3000
+1,State,"Maths, Science",Offline,Kothrud,3000
+1,State,"Science, English",Offline,Kothrud,4500
+10,International,"Maths, Computer",Offline,Mumbai,6000
+2,ICSE,"Maths, Science",Offline,Magarpatta,4500
+11,CBSE,"Economics, Accountancy",Offline,Hadapsar,5500
+8,CBSE,"Science, Hindi",Offline,Kothrud,4000
+6,CBSE,"Maths, English",Offline,Kothrud,3500
+4,State,All Subjects,Online,Online,4500
+7,International,"Maths, English",Offline,Magarpatta,4000
+9,CBSE,"Maths, Science",Offline,Magarpatta,5500
+6,CBSE,"Maths, Science",Offline,Kothrud,4000
+5,CBSE,"Maths, Science",Offline,Kothrud,4500
+10,State,All Subjects,Offline,Mumbai,3000
+2,State,"Maths, Science",Offline,Kothrud,3500
+6,ICSE,All Subjects,Offline,Hadapsar,3500
+12,State,"Economics, Accountancy, Business Studies",Online,Online,3000
+7,CBSE,"Maths, Computer",Online,Online,6000
+9,State,"Science, Social Studies",Offline,Kothrud,4500
+9,CBSE,"Maths, Computer",Online,Online,3500
+1,State,"Maths, Science",Offline,Magarpatta,4500
+7,CBSE,"Maths, Science",Offline,Kothrud,5500
+6,ICSE,"Maths, Science",Offline,Magarpatta,4500
+9,State,"Maths, Hindi",Offline,Kothrud,4000
+3,CBSE,"Science, Social Studies",Offline,Hadapsar,3000
+10,CBSE,"Maths, Hindi",Offline,Hadapsar,6000
+4,CBSE,"Science, Social Studies",Offline,Kothrud,4500
+10,International,"Maths, Science",Online,Online,6000
+3,ICSE,"Maths, Science",Offline,Mumbai,6000
+10,State,"Science, English",Offline,Kothrud,5500
+10,State,"Maths, Science",Offline,Hadapsar,5000
+6,State,"Maths, Science",Offline,Magarpatta,3000
+10,CBSE,"Maths, Science",Offline,Magarpatta,6000
+7,State,"Maths, Science",Offline,Mumbai,3500
+1,CBSE,"Maths, Science",Offline,Kothrud,4000
+6,CBSE,"Maths, Science",Offline,Kothrud,3500
+6,CBSE,"Science, Hindi",Offline,Magarpatta,5500
+10,ICSE,"Maths, Science",Offline,Magarpatta,5500
+6,State,"Maths, Science",Offline,Kothrud,3500
+1,State,"Maths, Science",Offline,Mumbai,3000
+7,ICSE,"Maths, Computer",Online,Online,3500
+10,CBSE,"Maths, Science",Offline,Magarpatta,4500
+7,CBSE,"Maths, Hindi",Offline,Mumbai,3500
+3,CBSE,"Maths, English",Offline,Kothrud,4000
+6,State,"Science, Hindi",Offline,Magarpatta,4000
+9,ICSE,"Maths, Science",Offline,Hadapsar,5000
+9,ICSE,All Subjects,Offline,Hadapsar,4000
+10,CBSE,"Maths, Science",Offline,Magarpatta,3500
+9,State,"Maths, Science",Offline,Kothrud,4000
+2,CBSE,"Maths, Science",Offline,Dubai,3000
+1,CBSE,"Maths, Science",Online,Online,6000
+9,State,"Maths, Social Studies",Online,Online,4000
+8,International,"Maths, Science",Online,Online,4500
+5,State,"Science, Hindi",Offline,Magarpatta,3000
+5,International,"Science, English",Offline,Hadapsar,5000
+7,CBSE,"Science, Hindi",Offline,Hadapsar,4500
+7,State,"Maths, English",Offline,Dubai,3500
+3,CBSE,"Maths, Science",Offline,Magarpatta,6000
+10,ICSE,"Maths, Science",Offline,Magarpatta,3500
+9,ICSE,"Maths, Science",Offline,Magarpatta,6000
+9,ICSE,"Maths, Science",Offline,Mumbai,6000
+3,CBSE,"Maths, Science",Offline,Kothrud,3500
+10,CBSE,"Maths, Social Studies",Offline,Hadapsar,4500
+12,ICSE,"Physics, Chemistry, Maths",Online,Online,4500
+1,State,All Subjects,Offline,Kothrud,6000
+10,CBSE,"Science, Hindi",Offline,Hadapsar,4500
+7,State,"Science, Hindi",Offline,Magarpatta,6000
+9,International,"Maths, Science",Offline,Dubai,6000
+6,International,"Maths, Hindi",Offline,Kothrud,3000
+4,State,"Maths, English",Online,Online,5500
+6,ICSE,All Subjects,Offline,Magarpatta,3000
+6,International,"Maths, Science",Offline,Magarpatta,3500
+10,State,"Maths, Science",Online,Online,5500
+3,CBSE,"Maths, Science",Offline,Hadapsar,4000
+9,International,"Maths, Science",Online,Online,3500
+3,State,"Maths, English",Offline,Magarpatta,5000
+10,CBSE,"Maths, Science",Offline,Kothrud,3000
+8,State,All Subjects,Offline,Hadapsar,4500
+10,International,"Maths, Science",Offline,Hadapsar,3000
+2,International,"Maths, Social Studies",Offline,Dubai,4500
+12,International,"Physics, Chemistry, Biology, Maths",Offline,Mumbai,5500
+3,CBSE,"Maths, English",Offline,Mumbai,5000
+9,ICSE,"Maths, Science",Offline,Kothrud,5500
+7,ICSE,"Maths, Science",Online,Online,5000
+4,CBSE,"Maths, Computer",Offline,Kothrud,3000
+1,ICSE,"Maths, Social Studies",Offline,Magarpatta,4500
+4,State,"Science, Hindi",Offline,Hadapsar,5500
+1,CBSE,"Maths, Hindi",Offline,Kothrud,5000
+8,State,"Science, Computer",Offline,Magarpatta,6000
+11,State,"Physics, Chemistry, Maths",Offline,Kothrud,3500
+9,State,"Maths, Science",Offline,Hadapsar,3500
+10,CBSE,"Maths, Science",Offline,Magarpatta,5500
+6,CBSE,All Subjects,Offline,Magarpatta,4500
+6,ICSE,"Maths, Science",Offline,Kothrud,6000
+3,State,"Science, Hindi",Offline,Magarpatta,5500
+9,CBSE,"Maths, Social Studies",Offline,Magarpatta,3000
+1,CBSE,"Science, Social Studies",Offline,Kothrud,5000
+9,ICSE,"Science, English",Offline,Dubai,3000
+8,CBSE,"Maths, Computer",Offline,Magarpatta,3500
+10,CBSE,"Maths, Science",Offline,Magarpatta,5000
+12,ICSE,"Physics, Chemistry, Biology, Maths",Offline,Kothrud,5500
+12,CBSE,"Physics, Chemistry, Biology",Offline,Kothrud,3000
+8,State,"Maths, Science",Offline,Mumbai,4000
+6,State,"Maths, Science",Offline,Magarpatta,4500
+6,ICSE,"Maths, Science",Offline,Hadapsar,6000
+8,State,All Subjects,Online,Online,6000
+10,ICSE,"Maths, Science",Offline,Hadapsar,4500
+12,CBSE,"Physics, Chemistry, Maths",Offline,Hadapsar,4000
+6,International,"Science, Social Studies",Offline,Kothrud,3500
+2,ICSE,All Subjects,Offline,Hadapsar,5000
+11,International,"Economics, Accountancy, Business Studies",Offline,Magarpatta,4500
+1,CBSE,"Maths, Science",Online,Online,4000
+9,ICSE,"Maths, Science",Offline,Magarpatta,5500
+1,CBSE,"Maths, Science",Online,Online,6000
+5,CBSE,"Science, English",Online,Online,4000
+9,CBSE,"Maths, Computer",Offline,Kothrud,3500
+10,ICSE,"Maths, Science",Offline,Hadapsar,3500
+4,International,"Maths, Science",Offline,Kothrud,3000
+3,ICSE,All Subjects,Offline,Kothrud,4500
+9,CBSE,"Science, Hindi",Online,Online,3000
+9,CBSE,"Maths, English",Offline,Hadapsar,6000
+8,ICSE,"Science, English",Offline,Magarpatta,4000
+8,State,All Subjects,Offline,Kothrud,5000
+11,State,"Physics, Chemistry, Biology",Offline,Magarpatta,5000
+6,CBSE,"Maths, Science",Online,Online,3500
+3,State,"Maths, Science",Offline,Kothrud,5000
+7,State,"Maths, Science",Online,Online,5000
+5,State,All Subjects,Offline,Hadapsar,6000
+9,State,"Science, Computer",Online,Online,5000
+8,State,"Maths, Hindi",Online,Online,4000
+11,International,"Physics, Chemistry, Maths",Offline,Kothrud,5000
+3,CBSE,"Maths, Hindi",Offline,Hadapsar,5500
+1,CBSE,"Maths, Science",Offline,Kothrud,5000
+10,CBSE,"Science, Computer",Offline,Kothrud,5000
+11,State,"Physics, Chemistry, Biology, Maths",Offline,Hadapsar,3000
+1,International,"Maths, Science",Offline,Magarpatta,4000
+3,ICSE,"Maths, Science",Offline,Magarpatta,3500
+10,State,"Maths, English",Offline,Magarpatta,3000
+7,CBSE,All Subjects,Offline,Magarpatta,4500
+12,ICSE,"Economics, Accountancy, Business Studies",Online,Online,4000
+3,International,"Maths, Science",Online,Online,5500
+6,CBSE,"Science, Computer",Offline,Hadapsar,4000
+8,CBSE,"Maths, Science",Offline,Magarpatta,4500
+10,State,All Subjects,Offline,Kothrud,4500
+9,International,"Maths, Science",Offline,Kothrud,4500
+12,State,"Economics, Accountancy",Offline,Hadapsar,6000
+2,International,"Maths, Social Studies",Online,Online,3500
+7,CBSE,"Science, Hindi",Offline,Hadapsar,5000
+2,CBSE,All Subjects,Offline,Kothrud,4000
+9,CBSE,"Science, Social Studies",Offline,Kothrud,6000
+6,State,"Science, Computer",Online,Online,5000
+1,State,"Science, Computer",Offline,Magarpatta,5000
+7,State,"Maths, Science",Offline,Magarpatta,5500
+7,State,"Maths, Science",Offline,Dubai,4500
+12,ICSE,"Economics, Accountancy, Business Studies",Offline,Kothrud,3500
+9,CBSE,"Maths, English",Offline,Hadapsar,5500
+6,State,"Maths, Science",Offline,Hadapsar,3000
+7,International,"Science, Hindi",Online,Online,6000
+3,ICSE,"Maths, Computer",Offline,Magarpatta,6000
+10,International,All Subjects,Offline,Kothrud,3500
+8,International,"Science, Hindi",Offline,Magarpatta,5000
+6,State,"Maths, Social Studies",Offline,Magarpatta,6000
+4,CBSE,"Maths, Science",Offline,Hadapsar,3500
+8,ICSE,"Maths, Science",Offline,Magarpatta,6000
+10,CBSE,"Maths, Science",Offline,Hadapsar,6000
+1,State,"Maths, Science",Offline,Hadapsar,4500
+6,ICSE,All Subjects,Offline,Kothrud,3000
+8,State,"Maths, Science",Offline,Kothrud,4500
+9,State,"Maths, Science",Offline,Dubai,3000
+8,CBSE,"Maths, Science",Offline,Kothrud,6000
+8,CBSE,"Maths, Social Studies",Offline,Kothrud,5500
+10,CBSE,"Science, Social Studies",Offline,Hadapsar,5000
+9,State,"Science, Social Studies",Online,Online,6000
+2,ICSE,"Maths, Social Studies",Online,Online,3000
+2,State,"Maths, Science",Offline,Hadapsar,3000
+12,State,"Economics, Accountancy",Offline,Magarpatta,3000
+10,ICSE,"Maths, Social Studies",Offline,Kothrud,6000
+12,International,"Physics, Chemistry, Biology, Maths",Offline,Magarpatta,3500
+12,ICSE,"Physics, Chemistry, Maths",Offline,Magarpatta,5500
+9,ICSE,"Maths, English",Offline,Kothrud,3500
+10,CBSE,"Science, English",Offline,Hadapsar,5000
+7,CBSE,All Subjects,Offline,Kothrud,6000
+6,State,"Maths, Hindi",Online,Online,3000
+9,CBSE,"Maths, Computer",Offline,Magarpatta,5500
+12,CBSE,"Economics, Accountancy, Business Studies",Offline,Magarpatta,5500
+7,State,"Maths, Science",Online,Online,4000
+5,ICSE,"Maths, Science",Offline,Hadapsar,5000
+1,CBSE,"Maths, Computer",Offline,Hadapsar,5500
+6,State,All Subjects,Offline,Kothrud,6000
+11,State,"Economics, Accountancy",Offline,Hadapsar,3000
+8,CBSE,"Maths, Science",Online,Online,3000
+8,State,"Maths, Science",Offline,Kothrud,5500
+5,ICSE,"Maths, Science",Offline,Kothrud,3500
+6,CBSE,"Maths, Science",Offline,Hadapsar,5000
+4,CBSE,"Maths, Science",Offline,Magarpatta,3000
+6,CBSE,"Maths, Science",Offline,Kothrud,5500
+8,ICSE,"Maths, Science",Offline,Hadapsar,3000
+10,CBSE,"Science, Social Studies",Online,Online,5500
+9,CBSE,"Maths, Science",Offline,Kothrud,5000
+3,CBSE,"Maths, Science",Offline,Hadapsar,5500
+6,State,"Maths, Computer",Offline,Magarpatta,4000
+10,ICSE,"Maths, Science",Offline,Dubai,5500
+9,ICSE,"Maths, Science",Offline,Kothrud,5500
+8,CBSE,"Maths, Science",Offline,Hadapsar,6000
+10,ICSE,All Subjects,Offline,Kothrud,5000
+7,ICSE,"Maths, Science",Offline,Kothrud,6000
+10,ICSE,"Maths, Science",Offline,Hadapsar,5500
+9,ICSE,All Subjects,Offline,Hadapsar,5000
+10,CBSE,"Maths, Science",Offline,Hadapsar,4000
+5,CBSE,"Maths, Computer",Offline,Mumbai,5000
+11,CBSE,"Physics, Chemistry, Biology, Maths",Online,Online,3000
+7,ICSE,"Science, Hindi",Offline,Hadapsar,6000
+8,State,"Maths, Science",Offline,Hadapsar,5000
+11,ICSE,"Economics, Accountancy, Business Studies",Offline,Magarpatta,4000
+1,ICSE,"Science, English",Offline,Hadapsar,4500
+1,State,"Science, Hindi",Offline,Magarpatta,5500
+9,ICSE,"Maths, Social Studies",Offline,Magarpatta,5000
+2,State,"Maths, Science",Offline,Hadapsar,5500
+12,CBSE,"Physics, Chemistry, Maths",Offline,Hadapsar,3500
+9,ICSE,"Maths, Science",Offline,Magarpatta,3000
+6,State,"Maths, Science",Offline,Mumbai,6000
+8,ICSE,"Science, Social Studies",Offline,Kothrud,3000
+11,ICSE,"Economics, Accountancy",Offline,Hadapsar,3500
+1,CBSE,All Subjects,Online,Online,3500
+9,State,"Maths, Science",Offline,Magarpatta,6000
+6,State,"Maths, Science",Offline,Kothrud,5000
+5,CBSE,"Maths, Science",Offline,Hadapsar,3500
+12,International,"Physics, Chemistry, Biology, Maths",Offline,Magarpatta,4500
+3,CBSE,"Science, Social Studies",Online,Online,5500
+8,State,"Maths, Science",Offline,Kothrud,5500
+9,CBSE,"Maths, Science",Offline,Mumbai,4000
+10,CBSE,"Maths, Science",Offline,Magarpatta,3500
+5,ICSE,"Science, Hindi",Offline,Hadapsar,3500
+12,State,"Physics, Chemistry, Biology",Offline,Magarpatta,4500
+8,ICSE,"Maths, Science",Online,Online,3000
+5,CBSE,"Maths, Computer",Online,Online,3000
+9,International,"Maths, Science",Offline,Hadapsar,5500
+9,CBSE,"Maths, Science",Offline,Kothrud,5500
+8,CBSE,"Maths, Science",Offline,Kothrud,5000
+10,International,"Maths, Science",Offline,Hadapsar,6000
+5,State,"Maths, Science",Offline,Hadapsar,4500
+8,International,"Maths, Science",Offline,Magarpatta,6000
+9,CBSE,"Maths, Science",Offline,Mumbai,6000
+9,State,"Maths, Science",Offline,Kothrud,4000
+11,CBSE,"Physics, Chemistry, Maths",Offline,Magarpatta,6000
+6,ICSE,"Maths, Science",Offline,Kothrud,4000
+4,State,All Subjects,Offline,Kothrud,6000
+1,CBSE,"Maths, Science",Offline,Kothrud,4500
+5,CBSE,"Maths, Science",Online,Online,4000
+7,CBSE,"Maths, Science",Offline,Kothrud,3000
+12,State,"Physics, Chemistry, Maths",Offline,Hadapsar,4000
+5,ICSE,"Maths, Science",Offline,Mumbai,4000
+4,International,All Subjects,Offline,Hadapsar,4500
+2,International,"Science, Social Studies",Offline,Magarpatta,4500
+10,ICSE,"Maths, Science",Offline,Kothrud,4000
+7,State,"Maths, Science",Online,Online,3500
+10,ICSE,"Maths, Science",Offline,Magarpatta,4500
+1,State,"Science, English",Offline,Mumbai,5000
+5,State,"Science, Computer",Offline,Kothrud,5000
+8,CBSE,"Science, English",Offline,Kothrud,3000
+4,CBSE,"Science, Computer",Offline,Kothrud,6000
+9,ICSE,"Maths, Science",Offline,Kothrud,4000
+9,CBSE,"Maths, Science",Online,Online,3500
+2,CBSE,"Maths, Science",Offline,Hadapsar,3000
+9,State,"Maths, Social Studies",Offline,Hadapsar,4000
+10,International,"Maths, Science",Offline,Mumbai,4500
+8,CBSE,"Science, Hindi",Offline,Kothrud,5000
+10,CBSE,"Science, Computer",Offline,Kothrud,5500
+3,State,"Maths, Science",Offline,Mumbai,3500
+1,ICSE,"Maths, English",Offline,Hadapsar,5500
+1,CBSE,"Maths, Science",Offline,Magarpatta,5000
+10,State,"Maths, Science",Offline,Kothrud,6000
+7,State,"Maths, Science",Offline,Dubai,6000
+5,CBSE,"Science, Computer",Offline,Kothrud,5500
+8,CBSE,"Maths, Science",Offline,Magarpatta,4500
+3,State,"Maths, Science",Offline,Hadapsar,4000
+1,International,"Science, Social Studies",Offline,Mumbai,4500
+1,State,"Maths, Science",Offline,Dubai,5500
+6,CBSE,"Maths, Science",Online,Online,4500
+7,International,"Science, English",Offline,Kothrud,5000
+7,CBSE,"Science, English",Offline,Hadapsar,3500
+8,CBSE,"Maths, Science",Offline,Kothrud,4500
+8,CBSE,"Maths, Science",Offline,Magarpatta,5000
+8,State,"Science, Hindi",Offline,Hadapsar,3500
+8,International,"Science, English",Online,Online,6000
+2,CBSE,"Maths, Science",Offline,Magarpatta,4000
+10,ICSE,"Science, Computer",Online,Online,5500
+10,State,"Maths, Social Studies",Online,Online,6000
+3,State,All Subjects,Online,Online,4000
+9,State,"Maths, Science",Offline,Magarpatta,6000
+6,CBSE,"Science, Social Studies",Offline,Hadapsar,3000
+7,CBSE,"Science, Computer",Offline,Kothrud,6000
+2,ICSE,"Maths, Science",Offline,Kothrud,5000
+10,CBSE,"Maths, Science",Online,Online,3500
+7,International,"Science, Hindi",Offline,Hadapsar,6000
+6,State,"Maths, Science",Offline,Kothrud,4500
+4,ICSE,"Maths, Science",Offline,Mumbai,4000
+11,ICSE,"Economics, Accountancy",Offline,Mumbai,6000
+10,ICSE,"Maths, Science",Offline,Kothrud,3500
+8,ICSE,"Maths, Science",Offline,Magarpatta,5000
+7,ICSE,"Maths, Science",Online,Online,3000
+4,CBSE,"Maths, Science",Offline,Magarpatta,4000
+11,State,"Physics, Chemistry, Maths",Offline,Mumbai,5500
+4,State,"Maths, Science",Offline,Hadapsar,3500
+7,International,"Maths, English",Offline,Hadapsar,5500
+5,CBSE,"Maths, Science",Offline,Magarpatta,3500
+7,ICSE,"Science, Computer",Offline,Kothrud,3500
+3,CBSE,"Maths, Science",Offline,Magarpatta,5000
+9,State,"Maths, Science",Offline,Hadapsar,5000
+3,State,All Subjects,Offline,Magarpatta,5000
+9,CBSE,All Subjects,Offline,Kothrud,6000
+4,CBSE,"Maths, Science",Offline,Hadapsar,4500
+10,State,"Maths, Science",Offline,Mumbai,3500
+9,CBSE,"Maths, Science",Online,Online,4000
+6,State,"Maths, Science",Online,Online,5500
+5,CBSE,"Maths, Computer",Offline,Hadapsar,5000
+8,State,"Science, Hindi",Offline,Magarpatta,6000
+9,ICSE,"Science, Computer",Offline,Mumbai,5000
+8,CBSE,"Maths, Science",Offline,Kothrud,5500
+3,CBSE,"Maths, Science",Offline,Kothrud,5500
+7,State,"Science, Social Studies",Offline,Dubai,3500
+9,State,"Maths, Science",Online,Online,5000
+9,CBSE,"Maths, Science",Offline,Mumbai,5500
+10,CBSE,"Maths, Science",Offline,Hadapsar,4500
+9,CBSE,"Science, Social Studies",Offline,Dubai,4500
+12,State,"Physics, Chemistry, Biology, Maths",Offline,Magarpatta,5000
+8,CBSE,"Maths, Science",Offline,Hadapsar,6000
+10,ICSE,"Maths, Science",Offline,Magarpatta,5500
+9,ICSE,"Maths, Science",Offline,Hadapsar,3500
+4,State,"Science, English",Offline,Magarpatta,3500
+8,CBSE,"Maths, Science",Online,Online,6000
+7,State,"Science, Hindi",Offline,Hadapsar,3500
+10,State,"Maths, English",Online,Online,3000
+8,International,"Maths, English",Offline,Magarpatta,5000
+7,State,"Maths, Science",Offline,Hadapsar,3500
+6,CBSE,"Maths, Science",Online,Online,4500
+8,CBSE,"Maths, Science",Offline,Magarpatta,5500
+10,ICSE,"Maths, English",Offline,Dubai,4000
+10,CBSE,"Science, Social Studies",Offline,Magarpatta,6000
+9,State,"Science, Hindi",Offline,Kothrud,4000
+9,CBSE,"Maths, Science",Offline,Kothrud,3500
+11,CBSE,"Economics, Accountancy, Business Studies",Offline,Hadapsar,4000
+5,State,"Maths, Science",Online,Online,4000
+3,CBSE,"Maths, Science",Online,Online,3000
+8,State,All Subjects,Offline,Hadapsar,4500
+10,State,"Maths, English",Offline,Magarpatta,6000
+11,CBSE,"Physics, Chemistry, Biology, Maths",Offline,Hadapsar,4500
+4,State,"Maths, Science",Offline,Hadapsar,3000
+11,CBSE,"Physics, Chemistry, Maths",Offline,Magarpatta,3000
+9,CBSE,"Maths, Science",Offline,Dubai,4000
+6,ICSE,"Maths, Science",Offline,Hadapsar,5000
+8,State,"Maths, Science",Offline,Kothrud,5500
+11,State,"Economics, Accountancy",Offline,Magarpatta,5500
+7,State,"Maths, Science",Offline,Mumbai,4000
+6,CBSE,"Maths, Science",Offline,Kothrud,5500
+8,ICSE,"Science, Social Studies",Offline,Kothrud,3000
+5,State,"Maths, Science",Offline,Hadapsar,4500
+3,International,"Maths, Science",Offline,Kothrud,5500
+7,State,All Subjects,Offline,Magarpatta,6000
+7,CBSE,"Maths, Science",Offline,Kothrud,4000
+10,ICSE,"Maths, Science",Offline,Dubai,5000
+9,ICSE,"Maths, Science",Offline,Hadapsar,4000
+8,ICSE,"Maths, Science",Offline,Kothrud,3500
+7,ICSE,"Science, English",Offline,Mumbai,4000
+7,CBSE,"Maths, Science",Offline,Magarpatta,3000
+8,ICSE,"Science, Social Studies",Offline,Hadapsar,4500
+9,State,"Maths, Science",Online,Online,4500
+6,ICSE,"Maths, Social Studies",Offline,Kothrud,6000
+6,CBSE,"Science, Computer",Offline,Hadapsar,5500
+8,ICSE,All Subjects,Offline,Hadapsar,3000
+8,CBSE,"Maths, Hindi",Online,Online,3500
+6,CBSE,"Maths, Science",Offline,Magarpatta,3000
+7,CBSE,"Science, Social Studies",Offline,Dubai,4000
+7,ICSE,"Science, Social Studies",Offline,Kothrud,3000
+10,State,"Science, Social Studies",Offline,Hadapsar,3000
+2,State,All Subjects,Offline,Mumbai,6000
+5,State,"Maths, Science",Online,Online,3500
+5,State,All Subjects,Online,Online,4000
+6,ICSE,"Maths, Science",Offline,Kothrud,5000
+10,State,"Science, English",Offline,Mumbai,6000
+6,International,"Maths, Science",Offline,Magarpatta,5000
+9,CBSE,"Maths, Science",Offline,Kothrud,6000
+8,State,"Maths, Science",Offline,Mumbai,4500
+1,ICSE,"Maths, Science",Online,Online,6000
+12,CBSE,"Economics, Accountancy, Business Studies",Offline,Kothrud,5500
+10,CBSE,"Maths, Science",Offline,Dubai,3000
+9,CBSE,"Science, Computer",Offline,Kothrud,4500
+6,ICSE,"Maths, Science",Offline,Hadapsar,3500
+8,State,"Maths, Science",Offline,Hadapsar,5000
+4,International,"Science, Computer",Offline,Hadapsar,6000
+4,International,"Maths, Science",Offline,Dubai,3000
+6,CBSE,"Maths, Science",Offline,Hadapsar,3500
+10,State,All Subjects,Online,Online,5500
+8,CBSE,All Subjects,Offline,Magarpatta,3500
+12,State,"Economics, Accountancy",Offline,Hadapsar,3000
+6,State,"Science, Hindi",Offline,Magarpatta,5500
+7,State,"Science, Social Studies",Offline,Hadapsar,3500
+10,CBSE,"Maths, Science",Online,Online,5500
+6,ICSE,"Maths, Science",Offline,Kothrud,6000
+3,ICSE,"Maths, Science",Offline,Mumbai,6000
+8,ICSE,"Science, English",Offline,Magarpatta,3000
+8,CBSE,"Science, Social Studies",Offline,Kothrud,3000
+10,CBSE,"Maths, Science",Online,Online,5500
+10,CBSE,"Science, English",Offline,Hadapsar,4000
+6,International,"Maths, Science",Offline,Magarpatta,4500
+7,State,"Science, Social Studies",Offline,Magarpatta,3500
+6,ICSE,"Maths, Science",Offline,Kothrud,3500
+1,CBSE,"Maths, Science",Offline,Magarpatta,4000
+3,CBSE,"Maths, Science",Online,Online,4000
+8,ICSE,"Maths, Science",Offline,Hadapsar,8000
+9,CBSE,"Maths, Social Studies",Offline,Kothrud,8000
+1,ICSE,"Maths, Science",Offline,Mumbai,8500
+6,International,"Maths, Science",Online,Online,9000
+11,CBSE,"Physics, Chemistry, Biology",Offline,Dubai,9000
+6,State,All Subjects,Online,Online,6000
+8,CBSE,"Maths, Science",Offline,Magarpatta,6500
+8,International,"Maths, Science",Offline,Magarpatta,10000
+8,State,"Maths, Science",Offline,Hadapsar,6500
+9,CBSE,"Maths, Science",Offline,Kothrud,8500
+11,CBSE,"Physics, Chemistry, Maths",Offline,Kothrud,6000
+9,ICSE,"Maths, Science",Online,Online,7000
+12,State,"Physics, Chemistry, Maths",Offline,Hadapsar,6500
+11,ICSE,"Physics, Chemistry, Maths",Offline,Dubai,7000
+7,International,"Maths, Science",Offline,Dubai,8000
+5,State,All Subjects,Offline,Magarpatta,8500
+4,State,All Subjects,Offline,Magarpatta,10000
+3,International,"Maths, English",Offline,Hadapsar,7500
+10,State,"Maths, Science",Offline,Mumbai,9000
+10,ICSE,All Subjects,Offline,Mumbai,8500
+10,CBSE,"Science, Social Studies",Offline,Kothrud,6500
+9,State,"Maths, Science",Offline,Kothrud,9500
+7,ICSE,"Maths, Science",Offline,Hadapsar,9000
+9,CBSE,"Maths, Science",Offline,Magarpatta,9000
+8,CBSE,"Maths, Computer",Offline,Hadapsar,9500
+9,CBSE,"Maths, English",Offline,Kothrud,6000
+1,CBSE,"Maths, English",Online,Online,6000
+11,State,"Physics, Chemistry, Maths",Offline,Magarpatta,9500
+12,CBSE,"Economics, Accountancy, Business Studies",Offline,Kothrud,7500
+12,International,"Economics, Accountancy, Business Studies",Online,Online,8000
+3,State,"Maths, Science",Offline,Hadapsar,9500
+9,CBSE,"Maths, Science",Offline,Kothrud,8000
+7,CBSE,"Maths, Science",Offline,Hadapsar,7500
+8,ICSE,"Maths, Science",Online,Online,8500
+7,State,"Maths, Science",Offline,Mumbai,8000
+9,International,"Maths, Science",Offline,Hadapsar,9000
+6,CBSE,"Maths, English",Offline,Kothrud,9000
+6,State,"Science, English",Offline,Mumbai,7500
+8,State,"Maths, Science",Offline,Magarpatta,8000
+11,State,"Physics, Chemistry, Biology, Maths",Offline,Mumbai,7000
+6,CBSE,"Maths, Science",Offline,Hadapsar,7500
+4,CBSE,"Maths, Science",Online,Online,7500
+6,ICSE,"Maths, Science",Offline,Magarpatta,7000
+10,CBSE,"Science, Computer",Offline,Mumbai,8000
+5,State,"Maths, Science",Online,Online,8000
+7,CBSE,All Subjects,Offline,Hadapsar,9000
+4,ICSE,All Subjects,Offline,Magarpatta,7500
+12,State,"Physics, Chemistry, Biology",Offline,Kothrud,7500
+9,State,"Maths, Science",Online,Online,10000
+7,State,All Subjects,Offline,Hadapsar,8500
+1,ICSE,"Maths, Science",Offline,Magarpatta,7500
+11,CBSE,"Physics, Chemistry, Maths",Offline,Kothrud,6500
+10,CBSE,"Maths, Science",Offline,Magarpatta,8500
+8,ICSE,"Maths, Science",Online,Online,6500
+9,ICSE,"Maths, Social Studies",Online,Online,8000
+8,CBSE,"Maths, Science",Offline,Mumbai,8500
+8,ICSE,"Maths, Science",Offline,Kothrud,7500
+3,State,"Science, Hindi",Offline,Hadapsar,7000
+6,State,"Maths, Science",Offline,Dubai,9000
+10,State,"Maths, Science",Offline,Kothrud,6500
+10,State,"Maths, Science",Offline,Hadapsar,8500
+5,CBSE,"Maths, Science",Offline,Kothrud,7500
+9,International,"Science, Hindi",Offline,Magarpatta,8500
+2,State,All Subjects,Offline,Magarpatta,7500
+7,State,"Maths, Science",Offline,Hadapsar,7500
+10,CBSE,"Maths, Science",Offline,Magarpatta,7500
+8,International,"Maths, Science",Online,Online,10000
+5,CBSE,"Maths, Science",Offline,Mumbai,9000
+1,CBSE,"Maths, Science",Offline,Dubai,7000
+12,State,"Economics, Accountancy",Offline,Kothrud,7000
+1,State,"Maths, Science",Online,Online,8500
+10,International,"Maths, English",Offline,Dubai,8500
+9,International,"Maths, Science",Online,Online,7500
+9,State,"Maths, Hindi",Online,Online,10000
+7,International,"Maths, Social Studies",Offline,Magarpatta,7500
+11,CBSE,"Economics, Accountancy",Offline,Kothrud,10000
+12,ICSE,"Economics, Accountancy, Business Studies",Offline,Magarpatta,7500
+9,CBSE,"Maths, Computer",Offline,Magarpatta,6500
+8,CBSE,"Maths, Science",Offline,Dubai,6500
+1,CBSE,"Maths, Science",Offline,Kothrud,8000
+2,CBSE,"Science, Social Studies",Offline,Magarpatta,7500
+7,State,All Subjects,Offline,Magarpatta,9000
+3,State,"Maths, Science",Offline,Magarpatta,8000
+1,CBSE,"Maths, Science",Offline,Kothrud,8500
+11,ICSE,"Physics, Chemistry, Maths",Offline,Magarpatta,7500
+9,State,"Maths, Science",Offline,Kothrud,6500
+6,CBSE,"Maths, Computer",Offline,Mumbai,10000
+9,International,"Maths, Science",Offline,Kothrud,9000
+5,State,"Maths, Social Studies",Offline,Magarpatta,7500
+5,CBSE,"Maths, Science",Offline,Hadapsar,7000
+6,CBSE,"Maths, Computer",Offline,Magarpatta,7000
+3,ICSE,"Maths, Science",Offline,Kothrud,10000
+11,State,"Physics, Chemistry, Biology, Maths",Offline,Magarpatta,8000
+5,CBSE,All Subjects,Offline,Kothrud,7000
+11,ICSE,"Economics, Accountancy",Offline,Kothrud,8000
+5,International,"Maths, Hindi",Offline,Kothrud,6500
+7,CBSE,"Maths, Computer",Offline,Mumbai,7500
+7,CBSE,"Maths, Science",Offline,Hadapsar,6500
+10,CBSE,"Science, English",Offline,Kothrud,6500
+9,ICSE,"Maths, Science",Offline,Hadapsar,9500
+11,CBSE,"Physics, Chemistry, Biology",Offline,Kothrud,6000
+8,State,"Science, Computer",Offline,Kothrud,9000
+7,International,"Maths, Science",Offline,Hadapsar,8000
+8,CBSE,"Maths, Science",Offline,Hadapsar,9500
+1,CBSE,"Maths, Social Studies",Offline,Dubai,6000
+10,State,All Subjects,Offline,Hadapsar,9000
+8,CBSE,"Science, Hindi",Offline,Hadapsar,8000
+8,CBSE,All Subjects,Offline,Magarpatta,7500
+4,CBSE,"Maths, Science",Offline,Hadapsar,9000
+1,State,"Maths, Science",Offline,Hadapsar,6500
+9,CBSE,"Science, Hindi",Offline,Magarpatta,6000
+6,International,"Science, English",Offline,Kothrud,6000
+2,State,All Subjects,Offline,Hadapsar,6000
+6,International,"Maths, English",Offline,Magarpatta,8000
+6,CBSE,"Maths, Science",Offline,Hadapsar,9000
+2,ICSE,"Maths, Science",Offline,Kothrud,6500
+12,ICSE,"Economics, Accountancy, Business Studies",Offline,Hadapsar,9500
+12,CBSE,"Physics, Chemistry, Maths",Online,Online,7500
+3,ICSE,"Maths, Science",Offline,Kothrud,7000
+10,ICSE,"Maths, Science",Offline,Kothrud,9500
+8,CBSE,"Science, English",Offline,Magarpatta,6500
+1,CBSE,"Maths, Science",Offline,Hadapsar,7000
+12,CBSE,"Physics, Chemistry, Biology, Maths",Offline,Hadapsar,7000
+8,ICSE,"Maths, English",Offline,Mumbai,6000
+5,ICSE,"Maths, Social Studies",Offline,Kothrud,8500
+9,ICSE,"Maths, Science",Offline,Dubai,6500
+9,CBSE,"Science, Social Studies",Offline,Dubai,6000
+9,ICSE,"Science, Computer",Online,Online,6500
+9,State,All Subjects,Offline,Hadapsar,8500
+5,CBSE,All Subjects,Online,Online,7500
+11,State,"Economics, Accountancy",Offline,Hadapsar,8500
+8,CBSE,"Maths, Science",Offline,Magarpatta,10000
+2,CBSE,"Maths, English",Offline,Magarpatta,9500
+7,CBSE,All Subjects,Offline,Magarpatta,6000
+10,CBSE,All Subjects,Offline,Magarpatta,9500
+6,CBSE,"Maths, Science",Offline,Dubai,10000
+6,CBSE,"Maths, Science",Offline,Hadapsar,8500
+2,State,"Maths, Hindi",Offline,Kothrud,8000
+6,CBSE,"Maths, Science",Offline,Kothrud,8500
+10,State,"Maths, Science",Offline,Magarpatta,8500
+2,State,"Maths, Science",Offline,Kothrud,10000
+10,CBSE,"Maths, Science",Offline,Hadapsar,7500
+9,CBSE,"Maths, Science",Offline,Kothrud,6500
+10,CBSE,"Science, Computer",Online,Online,10000
+2,CBSE,"Maths, Science",Online,Online,6500
+10,CBSE,"Maths, Science",Online,Online,10000
+6,ICSE,"Science, Hindi",Offline,Kothrud,6500
+1,CBSE,"Maths, Science",Offline,Hadapsar,9500
+9,CBSE,"Science, Computer",Online,Online,10000
+7,State,"Science, Computer",Offline,Kothrud,10000
+10,CBSE,"Maths, Science",Offline,Magarpatta,10000
+9,CBSE,"Science, English",Offline,Magarpatta,6500
+5,CBSE,"Maths, Science",Offline,Magarpatta,7500
+4,CBSE,"Maths, Science",Online,Online,9000
+7,CBSE,"Science, Hindi",Offline,Mumbai,6500
+9,CBSE,"Maths, English",Online,Online,6000
+7,ICSE,"Maths, Hindi",Offline,Dubai,7000
+9,ICSE,"Maths, Science",Offline,Magarpatta,7500
+10,ICSE,"Science, English",Offline,Mumbai,9500
+5,International,All Subjects,Offline,Hadapsar,8500
+2,State,All Subjects,Offline,Magarpatta,6500
+6,State,"Maths, Science",Offline,Hadapsar,10000
+11,State,"Economics, Accountancy, Business Studies",Offline,Kothrud,6500
+2,CBSE,"Science, Hindi",Offline,Hadapsar,8000
+8,ICSE,"Maths, Science",Offline,Hadapsar,7500
+7,State,"Maths, Science",Offline,Kothrud,9000
+7,International,"Maths, English",Offline,Kothrud,9500
+9,State,"Science, Hindi",Offline,Magarpatta,8000
+7,International,All Subjects,Offline,Kothrud,8000
+10,CBSE,"Maths, Science",Online,Online,6500
+9,State,"Maths, Computer",Online,Online,9500
+9,CBSE,All Subjects,Offline,Magarpatta,6500
+7,State,"Maths, Science",Offline,Hadapsar,8500
+12,State,"Physics, Chemistry, Biology, Maths",Offline,Hadapsar,9500
+9,CBSE,"Science, Hindi",Offline,Magarpatta,8500
+6,ICSE,"Maths, Science",Offline,Magarpatta,7500
+4,CBSE,"Maths, Science",Offline,Mumbai,7500
+6,CBSE,"Maths, Science",Offline,Dubai,8500
+4,CBSE,"Maths, Science",Offline,Kothrud,7500
+3,ICSE,"Maths, Science",Online,Online,9500
+3,State,"Science, English",Offline,Magarpatta,10000
+10,CBSE,"Maths, Science",Offline,Magarpatta,6000
+10,State,"Maths, Science",Offline,Kothrud,7500
+10,State,"Maths, Science",Offline,Magarpatta,7500
+11,CBSE,"Physics, Chemistry, Maths",Offline,Magarpatta,6500
+5,State,"Maths, Science",Offline,Hadapsar,8500
+10,CBSE,All Subjects,Offline,Hadapsar,7000
+7,ICSE,"Maths, Social Studies",Offline,Magarpatta,9000
+12,State,"Economics, Accountancy",Offline,Hadapsar,8000
+11,CBSE,"Physics, Chemistry, Biology",Offline,Kothrud,7500
+6,State,"Science, Computer",Offline,Hadapsar,8000
+1,International,"Maths, Science",Offline,Hadapsar,9500
+5,CBSE,All Subjects,Offline,Kothrud,7000
+7,ICSE,"Maths, Science",Offline,Kothrud,9000
+8,CBSE,"Maths, Science",Offline,Kothrud,8500
+8,State,"Science, English",Offline,Magarpatta,6000
+2,CBSE,"Maths, English",Offline,Kothrud,9000
+9,International,"Maths, Social Studies",Offline,Mumbai,9000
+8,CBSE,"Maths, Science",Offline,Kothrud,6000
+8,ICSE,"Maths, Science",Offline,Hadapsar,10000
+7,ICSE,"Maths, Science",Offline,Hadapsar,8500
+9,State,"Maths, Science",Offline,Hadapsar,6500
+12,State,"Economics, Accountancy, Business Studies",Offline,Hadapsar,8000
+9,CBSE,"Maths, Science",Online,Online,7500
+7,CBSE,"Maths, Hindi",Offline,Mumbai,9000
+9,ICSE,"Maths, Science",Offline,Hadapsar,9500
+9,International,"Maths, Social Studies",Offline,Hadapsar,6000
+4,CBSE,"Science, Hindi",Offline,Dubai,8000
+1,State,All Subjects,Offline,Kothrud,7000
+6,ICSE,"Maths, Science",Offline,Magarpatta,6000
+9,State,"Maths, Science",Offline,Magarpatta,7000
+3,ICSE,"Science, Social Studies",Offline,Magarpatta,8500
+10,CBSE,"Science, Hindi",Offline,Magarpatta,9000
+9,CBSE,"Maths, Science",Offline,Kothrud,9500
+9,State,"Maths, Science",Offline,Magarpatta,7500
+12,CBSE,"Economics, Accountancy, Business Studies",Offline,Magarpatta,7000
+8,CBSE,"Maths, Science",Offline,Kothrud,8000
+8,CBSE,"Maths, Social Studies",Offline,Magarpatta,10000
+2,State,"Maths, Science",Online,Online,8500
+8,ICSE,"Maths, Science",Online,Online,10000
+8,ICSE,"Maths, Science",Offline,Magarpatta,8500
+10,State,"Maths, Science",Offline,Kothrud,6500
+6,State,"Maths, Science",Offline,Magarpatta,8000
+3,State,"Maths, English",Online,Online,10000
+9,CBSE,"Science, Hindi",Offline,Dubai,9500
+8,CBSE,"Science, Computer",Offline,Mumbai,9000
+7,CBSE,All Subjects,Offline,Hadapsar,6000
+9,State,"Science, Hindi",Offline,Hadapsar,7500
+8,CBSE,"Science, Hindi",Offline,Mumbai,9000
+10,CBSE,"Maths, Science",Offline,Magarpatta,9000
+6,CBSE,"Science, Hindi",Offline,Magarpatta,8500
+3,International,All Subjects,Online,Online,9500
+10,State,"Maths, Hindi",Offline,Kothrud,8500
+9,CBSE,"Maths, Science",Offline,Hadapsar,7000
+5,CBSE,All Subjects,Offline,Hadapsar,7500
+7,CBSE,"Maths, Science",Offline,Magarpatta,7000
+6,ICSE,"Science, Hindi",Offline,Mumbai,6000
+9,CBSE,"Maths, Science",Offline,Dubai,8000
+6,International,"Science, Social Studies",Offline,Mumbai,6000
+12,State,"Physics, Chemistry, Biology, Maths",Offline,Kothrud,6000
+8,State,"Science, Social Studies",Online,Online,6500
+9,ICSE,"Maths, Science",Offline,Dubai,7500
+8,CBSE,All Subjects,Online,Online,8500
+10,State,"Maths, Science",Offline,Mumbai,9500
+4,State,"Maths, Science",Online,Online,7000
+7,State,"Maths, Science",Offline,Hadapsar,6000
+3,ICSE,"Maths, Social Studies",Online,Online,7000
+7,State,"Science, Computer",Offline,Magarpatta,7000
+8,CBSE,"Science, Computer",Offline,Magarpatta,8000
+10,State,All Subjects,Offline,Magarpatta,7500
+9,CBSE,"Maths, Science",Offline,Kothrud,11500
+4,State,"Maths, Science",Online,Online,14000
+9,CBSE,"Maths, Computer",Offline,Magarpatta,13000
+12,State,"Physics, Chemistry, Biology",Offline,Magarpatta,11500
+2,ICSE,"Maths, Science",Offline,Magarpatta,11000
+9,State,"Maths, Hindi",Offline,Kothrud,12500
+6,CBSE,"Maths, Science",Online,Online,11000
+6,ICSE,"Maths, Science",Online,Online,12500
+9,CBSE,All Subjects,Offline,Kothrud,15000
+8,CBSE,"Maths, English",Offline,Kothrud,15000
+10,CBSE,"Maths, Science",Offline,Mumbai,14000
+7,CBSE,"Maths, Science",Offline,Dubai,12500
+7,CBSE,"Maths, Science",Offline,Magarpatta,11500
+5,International,"Maths, Science",Offline,Hadapsar,12000
+6,CBSE,"Science, English",Online,Online,12500
+10,CBSE,"Maths, Science",Online,Online,15000
+2,ICSE,"Maths, Science",Offline,Kothrud,11000
+8,CBSE,"Maths, Social Studies",Offline,Hadapsar,13500
+6,State,"Maths, Science",Online,Online,11500
+5,CBSE,"Science, Computer",Offline,Dubai,13500
+1,International,"Science, English",Offline,Hadapsar,14500
+11,State,"Economics, Accountancy",Online,Online,14500
+12,CBSE,"Physics, Chemistry, Biology",Offline,Magarpatta,11000
+11,State,"Physics, Chemistry, Biology",Offline,Dubai,14500
+6,CBSE,"Maths, English",Offline,Hadapsar,13000
+6,State,"Science, Computer",Offline,Hadapsar,15000
+9,CBSE,"Maths, Science",Online,Online,14000
+4,ICSE,"Maths, Science",Offline,Hadapsar,11500
+7,CBSE,"Maths, Science",Offline,Kothrud,13500
+7,CBSE,"Maths, Science",Offline,Magarpatta,11000
+3,ICSE,"Science, Computer",Offline,Magarpatta,13000
+10,International,"Maths, Science",Offline,Kothrud,11000
+6,State,"Maths, Science",Offline,Magarpatta,13000
+5,CBSE,All Subjects,Online,Online,15000
+4,State,"Maths, Science",Offline,Kothrud,14500
+6,International,"Maths, Science",Offline,Kothrud,14500
+2,International,"Maths, Science",Offline,Kothrud,15000
+10,CBSE,"Maths, Science",Offline,Mumbai,15000
+7,ICSE,"Maths, Science",Offline,Magarpatta,12500
+4,CBSE,"Maths, Science",Online,Online,10500
+9,CBSE,"Maths, Science",Offline,Kothrud,15000
+6,State,"Maths, Science",Online,Online,11000
+12,ICSE,"Physics, Chemistry, Biology",Online,Online,12500
+9,State,"Maths, Science",Online,Online,11500
+6,ICSE,"Maths, Science",Offline,Hadapsar,12500
+10,ICSE,"Maths, Science",Offline,Mumbai,10000
+2,ICSE,"Maths, Science",Offline,Magarpatta,14500
+9,State,"Maths, Science",Offline,Hadapsar,10000
+7,CBSE,"Maths, Computer",Offline,Hadapsar,11000
+6,State,"Maths, Science",Offline,Kothrud,13500
+10,CBSE,All Subjects,Offline,Magarpatta,13500
+8,State,"Maths, Science",Offline,Kothrud,15000
+8,International,"Science, English",Offline,Kothrud,11500
+5,CBSE,"Maths, English",Offline,Mumbai,12500
+6,CBSE,"Maths, Social Studies",Online,Online,13500
+12,CBSE,"Economics, Accountancy",Offline,Magarpatta,13000
+4,CBSE,"Maths, Science",Online,Online,15000
+10,CBSE,"Maths, Science",Offline,Magarpatta,13000
+10,CBSE,"Maths, Science",Offline,Hadapsar,11500
+1,International,"Maths, Social Studies",Offline,Kothrud,14000
+10,CBSE,"Maths, Science",Offline,Magarpatta,14500
+9,International,"Maths, Science",Offline,Hadapsar,12500
+8,ICSE,"Maths, Science",Offline,Dubai,15000
+9,State,"Maths, Social Studies",Offline,Magarpatta,11000
+1,International,"Maths, Science",Offline,Magarpatta,12000
+8,State,"Maths, Science",Online,Online,12000
+6,ICSE,"Maths, Science",Offline,Magarpatta,12000
+5,CBSE,"Science, English",Offline,Kothrud,13500
+7,ICSE,"Maths, Science",Offline,Hadapsar,14000
+4,ICSE,All Subjects,Online,Online,14000
+8,ICSE,"Maths, Science",Offline,Kothrud,12500
+7,ICSE,All Subjects,Offline,Hadapsar,12500
+3,CBSE,"Maths, Science",Online,Online,14000
+1,State,"Maths, Science",Offline,Hadapsar,11500
+6,CBSE,"Maths, Science",Offline,Magarpatta,12500
+10,State,"Maths, Science",Offline,Kothrud,11500
+7,CBSE,"Maths, Social Studies",Offline,Hadapsar,15000
+5,CBSE,"Science, Social Studies",Offline,Hadapsar,10000
+7,International,"Maths, Science",Offline,Kothrud,13000
+8,CBSE,"Science, English",Offline,Hadapsar,14500
+2,ICSE,"Maths, Science",Offline,Kothrud,15000
+8,State,"Maths, Science",Offline,Kothrud,12500
+6,ICSE,"Science, Hindi",Online,Online,14000
+2,International,"Maths, Science",Offline,Kothrud,13000
+10,CBSE,"Science, English",Offline,Kothrud,13000
+1,CBSE,"Maths, Hindi",Offline,Kothrud,10500
+5,ICSE,"Science, Hindi",Offline,Magarpatta,15000
+7,State,"Science, Hindi",Offline,Magarpatta,14000
+9,CBSE,"Maths, Social Studies",Offline,Kothrud,14500
+7,CBSE,"Maths, Science",Offline,Hadapsar,14000
+7,State,"Maths, Science",Offline,Magarpatta,12500
+9,CBSE,"Maths, Hindi",Offline,Kothrud,11000
+6,State,"Science, Social Studies",Online,Online,10000
+3,State,All Subjects,Offline,Kothrud,11500
+9,State,"Maths, Science",Offline,Hadapsar,11000
+5,International,"Maths, Computer",Offline,Hadapsar,10000
+8,CBSE,"Maths, Science",Offline,Mumbai,11000
+10,International,All Subjects,Online,Online,11500
+8,CBSE,"Maths, Science",Offline,Hadapsar,13500
+11,CBSE,"Physics, Chemistry, Biology",Offline,Kothrud,14000
+7,CBSE,"Science, Social Studies",Offline,Hadapsar,11000
+7,CBSE,"Maths, Science",Offline,Mumbai,12500
+2,State,"Science, Hindi",Offline,Dubai,14500
+8,CBSE,"Science, Hindi",Offline,Hadapsar,15000
+3,State,"Maths, Social Studies",Offline,Magarpatta,12000
+3,CBSE,"Science, Social Studies",Online,Online,12500
+1,CBSE,"Maths, Science",Offline,Hadapsar,11500
+6,State,All Subjects,Offline,Dubai,14500
+12,State,"Physics, Chemistry, Biology, Maths",Offline,Kothrud,12500
+6,ICSE,"Science, English",Offline,Kothrud,13000
+7,CBSE,"Maths, Science",Offline,Hadapsar,14000
+7,State,"Maths, Hindi",Offline,Hadapsar,14500
+5,International,"Maths, Science",Offline,Dubai,13000
+8,State,"Maths, Science",Offline,Hadapsar,12500
+3,CBSE,All Subjects,Offline,Dubai,10000
+11,International,"Economics, Accountancy, Business Studies",Offline,Kothrud,10500
+5,State,"Maths, Science",Offline,Magarpatta,10000
+5,State,"Maths, Science",Offline,Magarpatta,14000
+10,State,"Maths, Science",Offline,Magarpatta,14500
+8,CBSE,"Science, Computer",Offline,Hadapsar,14500
+4,State,"Maths, Science",Offline,Dubai,14000
+8,CBSE,"Maths, Social Studies",Offline,Hadapsar,13000
+7,State,"Maths, Science",Offline,Hadapsar,10500
+10,CBSE,"Maths, Science",Offline,Kothrud,12500
+6,International,All Subjects,Offline,Dubai,15000
+6,ICSE,"Science, Computer",Offline,Dubai,11500
+6,CBSE,"Maths, Science",Offline,Kothrud,10000
+6,CBSE,"Maths, Science",Offline,Mumbai,10000
+8,CBSE,"Maths, Science",Offline,Magarpatta,12000
+10,CBSE,"Maths, Science",Offline,Dubai,10500
+6,CBSE,"Maths, Social Studies",Offline,Magarpatta,11500
+1,State,"Science, Computer",Offline,Kothrud,10000
+9,ICSE,"Maths, Science",Offline,Magarpatta,11500
+1,CBSE,"Maths, Science",Offline,Mumbai,15000
+9,State,"Science, English",Offline,Magarpatta,12500
+1,CBSE,"Maths, Science",Online,Online,14500
+9,CBSE,"Maths, Science",Offline,Hadapsar,11500
+2,ICSE,"Maths, Science",Offline,Magarpatta,10000
+8,ICSE,"Maths, Science",Offline,Dubai,13000
+11,ICSE,"Economics, Accountancy",Offline,Hadapsar,10500
+6,State,"Maths, Science",Offline,Kothrud,14000
+6,CBSE,"Maths, Science",Offline,Hadapsar,11000
+10,CBSE,"Maths, Science",Offline,Magarpatta,13500
+6,State,All Subjects,Offline,Magarpatta,13500
+10,State,"Science, Hindi",Online,Online,11000
+6,ICSE,"Maths, Science",Offline,Magarpatta,11500
+6,State,"Science, English",Offline,Kothrud,10500
+3,CBSE,"Maths, Science",Offline,Dubai,11500
+6,State,"Maths, Science",Offline,Magarpatta,15000
+10,State,"Maths, Science",Offline,Mumbai,15000
