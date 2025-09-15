@@ -6,12 +6,7 @@ const authRoutes = require('./routes/auth');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// --- DATABASE CONNECTION ---
-// Using your provided MongoDB Atlas connection string
-const MONGO_URI = "mongodb+srv://mogilicharlasiddhardharoy:Roy%409876@shyampariedutech.v6lorfo.mongodb.net/shyampariedutech?retryWrites=true&w=majority&appName=shyampariedutech";
-
-// Note: I have URL-encoded your password from 'Roy@9876' to 'Roy%409876'
-// and specified 'shyampariedutech' as the database name.
+const MONGO_URI = "mongodb+srv://shyampariedutech.v1wbcsa.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority&appName=shyampariedutech";
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log('MongoDB Connected Successfully!'))
