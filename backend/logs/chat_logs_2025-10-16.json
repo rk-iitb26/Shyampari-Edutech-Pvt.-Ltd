@@ -1,0 +1,182 @@
+[
+  {
+    "timestamp": "2025-10-16T13:46:52.300244",
+    "user_id": "f1aaf5b2-05ce-4539-8243-9f084cfed774",
+    "message_type": "user",
+    "message": "What services do you offer?",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T13:46:52.323271",
+    "user_id": "f1aaf5b2-05ce-4539-8243-9f084cfed774",
+    "message_type": "ai",
+    "message": "What services do you offer?",
+    "response": null,
+    "error": "OpenAI API key not configured. Please set OPENAI_API_KEY environment variable.",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T13:46:52.370087",
+    "user_id": "432ab13f-6f9d-4037-a001-fbed5a0f9d90",
+    "message_type": "ai",
+    "message": "What services do you offer?",
+    "response": null,
+    "error": "Failed to get AI response: 'NoneType' object is not subscriptable",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T13:49:01.521935",
+    "user_id": "0d62138d-5a38-4c34-a15e-f3bbffe4adff",
+    "message_type": "user",
+    "message": "What services do you offer?",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T13:49:01.559738",
+    "user_id": "0d62138d-5a38-4c34-a15e-f3bbffe4adff",
+    "message_type": "ai",
+    "message": "What services do you offer?",
+    "response": null,
+    "error": "OpenAI API key not configured. Please set OPENAI_API_KEY environment variable.",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T13:49:01.588500",
+    "user_id": "abcb755f-391f-41b4-be29-8ad7e324b7a4",
+    "message_type": "ai",
+    "message": "What services do you offer?",
+    "response": null,
+    "error": "Failed to get AI response: 'NoneType' object is not subscriptable",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:26:46.884978",
+    "user_id": "2e4bee9b-6c3a-409c-8305-2750a8f0433b",
+    "message_type": "user",
+    "message": "How do I book a demo?",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:26:48.886599",
+    "user_id": "00b0f33d-0385-4c4b-b315-195304b2a38b",
+    "message_type": "ai",
+    "message": "How do I book a demo?",
+    "response": null,
+    "error": "Failed to get AI response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:40:28.335300",
+    "user_id": "95360c1a-ffd4-4667-ad92-c0697056fd8a",
+    "message_type": "user",
+    "message": "How do I book a demo?",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:40:30.749399",
+    "user_id": "77cb51f8-b2b1-4462-a467-e1d1505dfecc",
+    "message_type": "ai",
+    "message": "How do I book a demo?",
+    "response": null,
+    "error": "Failed to get AI response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:43:40.425012",
+    "user_id": "d01abbe4-d826-41c8-aa4d-dfc98f76cd0c",
+    "message_type": "user",
+    "message": "Hi",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:43:41.635254",
+    "user_id": "d01abbe4-d826-41c8-aa4d-dfc98f76cd0c",
+    "message_type": "ai",
+    "message": "Hi",
+    "response": "Hello! Welcome to Shyampari Edutech Pvt. Ltd. I'm happy to assist you. How can I help you today? Are you looking for information about our tutoring services, educational boards we support, or something else? Please let me know, and I'll do my best to provide you with the information you need.",
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:43:49.824479",
+    "user_id": "9a432ede-c827-4099-9210-0d1d1307d553",
+    "message_type": "user",
+    "message": "tutors",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:43:51.158090",
+    "user_id": "9a432ede-c827-4099-9210-0d1d1307d553",
+    "message_type": "ai",
+    "message": "tutors",
+    "response": "At Shyampari Edutech Pvt. Ltd., we pride ourselves on having high-quality tutors who are dedicated to providing personalized tutoring services to our students. Our tutors have fluent communication skills and come from STEM backgrounds, including Engineering, Pharmacy, and BSc-MSc. Many of our tutors are also JEE and GATE qualified, ensuring that they have a strong foundation in their subjects.\n\nWe understand the importance of having reliable and experienced tutors, which is why we ensure that they are located within 5 km of our parents' locations for better continuity and punctuality. Our tutors have experience in home tuitions, coaching, and schools, making them well-equipped to handle the unique needs of our students.\n\nIn the unlikely event that a tutor needs to leave due to an emergency or if a parent requests a change, we appoint a new tutor within 2 weeks. This ensures that our students' learning is not disrupted and that they can continue to receive the support they need.\n\nIf you're interested in learning more about our tutors or would like to sign up for our services, you can follow these simple steps:\n\n1. Sign up with your email, phone number, or social login, and provide some basic details about your learning preferences.\n2. Our platform will recommend a list of tutors based on your profile and preferences.\n3. You can then request a demo slot or paid session with one of our recommended tutors.\n4. Attend a 20-30 minute demo class, and rate the session and provide feedback afterwards.\n5. Based on the demo outcomes and ratings, you can select a tutor that best fits your needs.\n6. Finally, complete the payment securely through our platform to unlock sessions or packages.\n\nWe're committed to providing a supportive and conducive learning environment for our students, and we're confident that our tutors will help your child achieve their academic goals. If you have any further questions or would like to learn more about our services, please don't hesitate to reach out.",
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:44:16.425501",
+    "user_id": "47f377e4-1779-432f-bf5c-1aca27dba8e2",
+    "message_type": "user",
+    "message": "thats very grate, does it can help me as student?",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:44:17.263071",
+    "user_id": "47f377e4-1779-432f-bf5c-1aca27dba8e2",
+    "message_type": "ai",
+    "message": "thats very grate, does it can help me as student?",
+    "response": "Hello! I'm happy to help you. As a student, you can definitely benefit from our personalized tutoring services at Shyampari Edutech Pvt. Ltd. We offer a range of services, including one-on-one tutoring, group tuition, online and offline classes, and more, across multiple educational boards such as ICSE, IGCSE, CBSE, IB, and A-Level.\n\nOur goal is to provide you with a tailored learning experience that meets your specific needs and learning goals. With our dedicated coordinators, monthly progress reports, and counseling support, you'll have all the resources you need to succeed.\n\nTo get started, you can book a demo with us by contacting our coordinator, who will guide you through the process. We also have a recommendation system in place that matches you with the best tutor based on your subject, learning goals, availability, budget, and other factors.\n\nSo, whether you need help with a specific subject or want to improve your overall academic performance, we're here to support you. Feel free to ask me any questions or concerns you may have, and I'll be happy to help!",
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:45:05.375421",
+    "user_id": "0fbe8736-25b8-4633-92a5-7dd721de6605",
+    "message_type": "user",
+    "message": "you have grate services",
+    "response": null,
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-10-16T14:45:06.539326",
+    "user_id": "0fbe8736-25b8-4633-92a5-7dd721de6605",
+    "message_type": "ai",
+    "message": "you have grate services",
+    "response": "Thank you for appreciating our services. We're glad you think they're great. At Shyampari Edutech Pvt. Ltd., we strive to provide personalized tutoring services that cater to the unique needs of each student. Our services include One-on-One Tutoring, Group Tuition, Online & Offline Classes, and more, across multiple educational boards such as ICSE, IGCSE, CBSE, IB, and A-Level.\n\nIf you have any specific questions about our services or would like to know more about how we can support your educational journey, please don't hesitate to ask. We're here to help and look forward to assisting you. \n\nSome of the key highlights of our services include:\n* Personalized tutoring services\n* Support for multiple educational boards\n* Online and offline classes\n* Monthly progress reports\n* Dedicated coordinators\n\nPlease let us know how we can assist you further.",
+    "error": null,
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+  }
+]
