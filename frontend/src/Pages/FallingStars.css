@@ -1,0 +1,48 @@
+/* src/Components/FallingStars.css */
+.star-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+    /* Ensures it's behind the main content */
+    /* ✅ Added a darker background gradient to make stars visible */
+    background: linear-gradient(to bottom, #101520, #202b3c);
+    /* Darker shades for better star contrast */
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0;
+    transform-origin: center;
+    animation: fall ease-in-out infinite;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+    /* Subtle glow */
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-50px) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.8;
+    }
+
+    90% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translateY(100vh) translateX(30px) rotate(360deg);
+        opacity: 0;
+    }
+}
