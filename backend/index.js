@@ -1,4 +1,3 @@
-import cors from 'cors';
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -12,7 +11,7 @@ const messageRoutes = require("./routes/messages");
 
 const app = express();
 
-// ✅ CORS - allow Vite frontend (port 5173) and any localhost
+// CORS
 app.use(cors({
     origin: [
         "http://localhost:5173",
@@ -33,7 +32,7 @@ app.use("/api/faculty", facultyRoutes);
 app.use("/api/requests", requestRoutes);
 app.use("/api/messages", messageRoutes);
 
-// Root route - health check
+// Health check
 app.get("/", (req, res) => res.json({ status: "ok", message: "Shampari Edutech API is running" }));
 
 // 404 handler
@@ -47,25 +46,16 @@ app.use((err, req, res, next) => {
     res.status(500).json({ message: "Internal server error" });
 });
 
-// Start server
-const PORT = process.env.PORT || 5000;
-const server = app.listen(PORT, () => {
-    console.log(`✅ Server running on http://localhost:${PORT}`);
-});
-
-server.on("error", (err) => {
-    if (err.code === "EADDRINUSE") {
-        console.error(`❌ Port ${PORT} is already in use. Kill other node processes first.`);
-        process.exit(1);
-    }
-});
-
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
-    .then(() => {
-        console.log("✅ MongoDB connected successfully");
-    })
+    .then(() => console.log("✅ MongoDB connected successfully"))
     .catch(err => {
         console.error("❌ MongoDB connection error:", err.message);
-        console.error("👉 Check your MONGO_URI in the .env file.");
+        process.exit(1);
     });
+
+// Start server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`✅ Server running on port ${PORT}`);
+});
