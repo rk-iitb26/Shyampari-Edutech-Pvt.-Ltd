@@ -29,7 +29,12 @@ const StudentsDashboard = () => {
   const [teachers, setTeachers] = useState([]);
   const [filteredTeachers, setFilteredTeachers] = useState([]);
   const [profileData, setProfileData] = useState(null);
-  const [filters, setFilters] = useState({ subject: "", mode: "", state: "" });
+  const [filters, setFilters] = useState({
+  subject: "",
+  mode: "",
+  city: "",
+  board: ""
+});
   const [aiEnabled, setAiEnabled] = useState(false);
   // request state: { [facultyId]: 'pending' | 'accepted' | 'rejected' | null }
   const [requestStatuses, setRequestStatuses] = useState({});
@@ -78,17 +83,20 @@ const StudentsDashboard = () => {
 
   useEffect(() => {
     const filtered = teachers.filter((t) => {
-      const subjects = t.subjects || [];
-      const mode = t.mode || "";
-      const state = t.location?.state || "";
-      return (
-        (!filters.subject || subjects.some((s) => s.toLowerCase().includes(filters.subject.toLowerCase()))) &&
-        (!filters.mode || mode.toLowerCase().includes(filters.mode.toLowerCase())) &&
-        (!filters.state || state.toLowerCase().includes(filters.state.toLowerCase()))
-      );
-    });
-    setFilteredTeachers(filtered);
-  }, [filters, teachers]);
+  const subjects = t.subjects || [];
+  const mode = t.mode || "";
+  const city = t.location?.district || "";
+  const board = t.board || ""; // make sure backend sends this
+
+  return (
+    (!filters.subject || subjects.some((s) =>s.toLowerCase().includes(filters.subject.toLowerCase()))) &&
+    (!filters.mode || mode.toLowerCase().includes(filters.mode.toLowerCase())) &&
+    (!filters.city || city.toLowerCase().includes(filters.city.toLowerCase())) &&
+    (!filters.board || board.toLowerCase().includes(filters.board.toLowerCase()))
+  );
+}); 
+  setFilteredTeachers(filtered); // ✅ IMPORTANT FIX
+}, [filters, teachers]);
 
   const handleRequestAction = async (teacher, action) => {
     if (!studentExists) {
@@ -299,23 +307,35 @@ const StudentsDashboard = () => {
                     <div className="p-4 space-y-3">
                       <div className="flex items-center justify-between">
                         <h3 className="text-xs font-semibold text-white uppercase tracking-widest opacity-40">Filters</h3>
-                        <button onClick={() => setFilters({ subject: "", mode: "", state: "" })}
+                        <button onClick={() => setFilters({ subject: "", mode: "", city: "", board: "" })}
                           className="text-[10px] text-white/30 hover:text-white/60 transition-colors">Clear All</button>
                       </div>
-                      <div className="relative">
+                       <div className="relative">
                         <FaSearch className="absolute top-3 left-3 text-white/20 text-xs" />
                         <input type="text" placeholder="Subject" value={filters.subject}
                           onChange={(e) => setFilters({ ...filters, subject: e.target.value })}
                           className="glass-input emerald pl-8 !py-2 !text-xs" />
-                      </div>
+                       </div>
                       <div className="relative">
                         <FaMapMarkerAlt className="absolute top-3 left-3 text-white/20 text-xs" />
-                        <input type="text" placeholder="State/City" value={filters.state}
-                          onChange={(e) => setFilters({ ...filters, state: e.target.value })}
+                        <input type="text" placeholder="State/City" value={filters.city}
+                          onChange={(e) => setFilters({ ...filters, city: e.target.value })}
                           className="glass-input emerald pl-8 !py-2 !text-xs" />
                       </div>
+                      <div className ="relative">
+                      <FaGraduationCap className="absolute top-3 left-3 text-white/20 text-xs" />
+                      <input type="text" placeholder="Mode" value={filters.mode} 
+                        onChange={(e) => setFilters({ ...filters, mode: e.target.value })}
+                        className="glass-input emerald pl-8 !py-2 !text-xs" />
+                      </div>
+                      <div className="relative">
+                      <FaBook className="absolute top-3 left-3 text-white/20 text-xs"/>
+                      <input type="text" placeholder="Board" value={filters.board}
+                        onChange={(e) => setFilters({ ...filters,board: e.target.value })}
+                        className="glass-input emerald pl-8 !py-2 !text-xs" />
+                      </div>
                     </div>
-                  </motion.div>
+                 </motion.div>
                 )}
               </AnimatePresence>
 

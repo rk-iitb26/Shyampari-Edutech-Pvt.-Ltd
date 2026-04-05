@@ -3,25 +3,26 @@
 
 /* ===== CSS Custom Properties (Design Tokens) ===== */
 :root {
-  --primary: #6366f1;
-  --primary-dark: #4f46e5;
-  --primary-light: #818cf8;
-  --secondary: #8b5cf6;
-  --accent: #06b6d4;
-  --accent-warm: #f59e0b;
-  --surface: #0f172a;
-  --surface-light: #1e293b;
-  --surface-card: rgba(30, 41, 59, 0.7);
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
-  --gradient-warm: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
-  --gradient-cool: linear-gradient(135deg, #06b6d4 0%, #6366f1 100%);
-  --gradient-surface: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.15);
-  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.3);
+  /* ===== Beige + Blue Theme ===== */
+  --primary: #2563eb;            /* rich blue */
+  --primary-dark: #1e40af;       /* deep blue */
+  --primary-light: #60a5fa;      /* soft blue */
+  --secondary: #3b82f6;          /* lighter blue */
+  --accent: #0ea5e9;             /* sky blue */
+  --accent-warm: #d6bfa7;        /* beige accent */
+  --surface: #f5efe6;            /* main beige background */
+  --surface-light: #eae3d9;      /* soft beige */
+  --surface-card: rgba(255, 255, 255, 0.7);
+  --text-primary: #1e293b;       /* dark blue-gray text */
+  --text-secondary: #475569;     /* muted text */
+  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #60a5fa 50%, #eae3d9 100%);
+  --gradient-warm: linear-gradient(135deg, #eae3d9 0%, #d6bfa7 100%);
+  --gradient-cool: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+  --gradient-surface: linear-gradient(180deg, #f5efe6 0%, #eae3d9 100%);
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(37, 99, 235, 0.15);
+  --shadow-glow: 0 0 40px rgba(37, 99, 235, 0.15);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.1);
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 20px;
@@ -59,11 +60,11 @@ body,
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #efe07e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #6366f1, #8b5cf6);
+  background: linear-gradient(180deg, #d6d6eb, #b2c370);
   border-radius: 10px;
 }
 
@@ -257,14 +258,14 @@ body,
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(239, 158, 158, 0.83);
 }
 
 .glass-dark {
-  background: rgba(15, 23, 42, 0.8);
+  background: rgba(142, 169, 231, 0.8);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(225, 161, 161, 0.905);
 }
 
 /* ===== Premium Card Styles ===== */
@@ -385,7 +386,7 @@ body,
 
 /* ===== Section Styles ===== */
 .section-dark {
-  background: var(--gradient-surface);
+  background: #f5efe6;
   position: relative;
 }
 
@@ -397,9 +398,9 @@ body,
   right: 0;
   bottom: 0;
   background:
-    radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.06) 0%, transparent 50%),
-    radial-gradient(circle at 50% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(192, 199, 215, 0.849) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(167, 193, 224, 0.76) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(214, 191, 167, 0.836) 0%, transparent 50%);
   pointer-events: none;
 }
 
@@ -597,11 +598,11 @@ select option {
 }
 
 .hero-img-section::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.85) 100%);
-  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(245, 239, 230, 0.4) 0%,
+    rgba(245, 239, 230, 0.9) 100%
+  );
 }
 
 /* ===== Image Card Hover ===== */
