@@ -25,7 +25,7 @@ const LoginPage = ({ onClose }) => {
     }
     setLoading(true);
     try {
-      const response = await axios.post("/api/auth/login", formData);
+      const response = await axios.post("https://shyampari-edutech-pvt-ltd-1.onrender.com/", formData);
       const { user, token } = response.data;
       localStorage.setItem("user", JSON.stringify(user));
       localStorage.setItem("token", token);

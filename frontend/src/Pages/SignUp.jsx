@@ -18,7 +18,7 @@ function SignUpPage() {
         e.preventDefault();
         setLoading(true);
         try {
-            const response = await axios.post("/api/auth/signup", formData);
+            const response = await axios.post("https://shyampari-edutech-pvt-ltd-1.onrender.com/", formData);
             toast.success(response.data.message || "Account created!", { autoClose: 3000 });
             setTimeout(() => navigate("/login"), 3500);
         } catch (err) {
