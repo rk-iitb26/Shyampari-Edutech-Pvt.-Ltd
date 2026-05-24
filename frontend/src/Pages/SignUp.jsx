@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import { useNavigate } from "react-router-dom";
 import { FaUser, FaEnvelope, FaLock, FaChalkboardTeacher, FaUserGraduate, FaEye, FaEyeSlash, FaGraduationCap } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
@@ -18,7 +18,7 @@ function SignUpPage() {
         e.preventDefault();
         setLoading(true);
         try {
-            const response = await axios.post("https://shyampari-edutech-pvt-ltd-1.onrender.com/", formData);
+            const response = await api.post("/api/auth/signup", formData);
             toast.success(response.data.message || "Account created!", { autoClose: 3000 });
             setTimeout(() => navigate("/login"), 3500);
         } catch (err) {

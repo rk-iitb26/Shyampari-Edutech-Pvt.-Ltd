@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaUser, FaPhone, FaBook, FaMapMarkerAlt, FaGlobe, FaGraduationCap, FaCheckCircle } from "react-icons/fa";
 import toast, { Toaster } from "react-hot-toast";
-import axios from "axios";
+import api from "../utils/api";
 import { indiaStates } from "./IndiaStatesData";
 
 const subjects = [
@@ -77,10 +77,10 @@ function TutorForm({ defaultName, defaultEmail, defaultRole, defaultOtherData, o
 
     try {
       if (isEdit) {
-        await axios.put(`/api/faculty/${defaultOtherData._id}`, payload);
+        await api.put(`/api/faculty/${defaultOtherData._id}`, payload);
         toast.success("Profile updated successfully!");
       } else {
-        await axios.post("/api/faculty/register-teacher", payload);
+        await api.post("/api/faculty/register-teacher", payload);
         toast.success("Teacher registered successfully!");
       }
       if (onSuccess) onSuccess(payload);

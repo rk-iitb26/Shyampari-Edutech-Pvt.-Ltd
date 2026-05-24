@@ -12,15 +12,31 @@ const messageRoutes = require("./routes/messages");
 const app = express();
 
 // CORS
+const allowedOrigins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+    "https://shyampari-edutech-pvt-ltd-delta.vercel.app",
+    "https://shyampari-edutech-pvt-ltd-xrb1.vercel.app",
+    "https://shyampari-edutech-pvt-ltd-1.onrender.com"
+];
+
 app.use(cors({
-    origin: [
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:5173",
-        "http://127.0.0.1:3000",
-        "https://shyampari-edutech-pvt-ltd-delta.vercel.app/",
-        "https://shyampari-edutech-pvt-ltd-1.onrender.com"
-    ],
+    origin: function (origin, callback) {
+        // Allow requests with no origin (like mobile apps or curl)
+        if (!origin) return callback(null, true);
+        
+        const isLocalhost = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
+        const isVercelApp = /^https:\/\/shyampari-edutech-pvt-ltd.*\.vercel\.app$/.test(origin);
+        const isAllowedOrigin = allowedOrigins.includes(origin);
+        
+        if (isLocalhost || isVercelApp || isAllowedOrigin) {
+            callback(null, true);
+        } else {
+            callback(null, false);
+        }
+    },
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true

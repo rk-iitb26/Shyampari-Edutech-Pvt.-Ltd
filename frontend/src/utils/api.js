@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://shyampari-edutech-pvt-ltd-1.onrender.com', // Using proxy from vite.config.js
+    baseURL: import.meta.env.VITE_API_URL || 'https://shyampari-edutech-pvt-ltd-1.onrender.com',
 });
 
 // Add a request interceptor to add the JWT token to headers

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+import api from "../utils/api";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -25,7 +25,7 @@ const LoginPage = ({ onClose }) => {
     }
     setLoading(true);
     try {
-      const response = await axios.post("https://shyampari-edutech-pvt-ltd-1.onrender.com/", formData);
+      const response = await api.post("/api/auth/login", formData);
       const { user, token } = response.data;
       localStorage.setItem("user", JSON.stringify(user));
       localStorage.setItem("token", token);

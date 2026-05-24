@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaUser, FaPhone, FaBook, FaMapMarkerAlt, FaGlobe, FaCheckCircle } from "react-icons/fa";
 import toast, { Toaster } from "react-hot-toast";
+import api from "../utils/api";
 import { indiaStates } from "./IndiaStatesData";
 
 const subjects = ["Math", "Science", "English", "Social Science", "Computer", "Hindi", "Sanskrit", "Physics", "Chemistry", "Biology"];
@@ -54,26 +55,18 @@ function StudentForm({ defaultName, defaultEmail, defaultRole, existingData, onS
       location: { country: "India", state: selectedState, district: formData.district },
     };
 
-    const method = existingData ? "PUT" : "POST";
     const url = existingData
       ? `/api/student/${existingData._id}`
       : "/api/student/register-student";
 
     try {
-      const res = await fetch(url, {
-        method,
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(studentData),
-      });
-      const data = await res.json();
-      if (res.ok) {
-        toast.success(existingData ? "Profile updated!" : "Registered successfully!");
-        setTimeout(() => onSuccess?.(), 1200);
-      } else {
-        toast.error(data.message || "Server error");
-      }
+      const res = existingData
+        ? await api.put(url, studentData)
+        : await api.post(url, studentData);
+      toast.success(existingData ? "Profile updated!" : "Registered successfully!");
+      setTimeout(() => onSuccess?.(), 1200);
     } catch (err) {
-      toast.error("Connection error. Please try again.");
+      toast.error(err.response?.data?.message || "Connection error. Please try again.");
     } finally {
       setLoading(false);
     }
