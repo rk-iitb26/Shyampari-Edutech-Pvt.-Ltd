@@ -19,6 +19,7 @@ const allowedOrigins = [
     "http://127.0.0.1:3000",
     "https://shyampari-edutech-pvt-ltd-delta.vercel.app",
     "https://shyampari-edutech-pvt-ltd-xrb1.vercel.app",
+    "https://shyampari-edutech-pvt-ltd-1.onrender.com"
 ];
 
 app.use(cors({
