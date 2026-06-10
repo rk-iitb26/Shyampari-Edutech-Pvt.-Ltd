@@ -19,6 +19,8 @@ const allowedOrigins = [
     "http://127.0.0.1:3000",
     "https://shyampari-edutech-pvt-ltd-delta.vercel.app",
     "https://shyampari-edutech-pvt-ltd-xrb1.vercel.app",
+    "https://shyampariedtech.com",
+    "https://www.shyampariedtech.com",
     "https://shyampari-edutech-pvt-ltd-1.onrender.com"
 ];
 
@@ -26,20 +28,38 @@ app.use(cors({
     origin: function (origin, callback) {
         // Allow requests with no origin (like mobile apps or curl)
         if (!origin) return callback(null, true);
-        
+
         const isLocalhost = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
         const isVercelApp = /^https:\/\/shyampari-edutech-pvt-ltd.*\.vercel\.app$/.test(origin);
         const isAllowedOrigin = allowedOrigins.includes(origin);
-        
+
         if (isLocalhost || isVercelApp || isAllowedOrigin) {
             callback(null, true);
         } else {
-            callback(null, false);
+            callback(new Error("Not allowed by CORS"));
         }
     },
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: true
+    credentials: true,
+    optionsSuccessStatus: 200
+}));
+
+app.options("*", cors({
+    origin: function (origin, callback) {
+        if (!origin) return callback(null, true);
+        const isLocalhost = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
+        const isVercelApp = /^https:\/\/shyampari-edutech-pvt-ltd.*\.vercel\.app$/.test(origin);
+        const isAllowedOrigin = allowedOrigins.includes(origin);
+
+        if (isLocalhost || isVercelApp || isAllowedOrigin) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
+    credentials: true,
+    optionsSuccessStatus: 200
 }));
 app.use(express.json());
 
