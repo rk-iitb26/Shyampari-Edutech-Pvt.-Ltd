@@ -19,36 +19,27 @@ const allowedOrigins = [
     "http://127.0.0.1:3000",
     "https://shyampari-edutech-pvt-ltd-delta.vercel.app",
     "https://shyampari-edutech-pvt-ltd-xrb1.vercel.app",
-    "https://shyampariedtech.com",
-    "https://www.shyampariedtech.com",
-    "https://shyampari-edutech-pvt-ltd-1.onrender.com"
 ];
 
-const corsOptions = {
-    origin: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
-    allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization"],
-    credentials: true,
-    preflightContinue: false,
-    optionsSuccessStatus: 204
-};
-
-app.use((req, res, next) => {
-    const origin = req.headers.origin;
-    if (origin) {
-        res.setHeader("Access-Control-Allow-Origin", origin);
-        res.setHeader("Access-Control-Allow-Credentials", "true");
-        res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS,PATCH");
-        res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
-    }
-    if (req.method === "OPTIONS") {
-        return res.sendStatus(204);
-    }
-    next();
-});
-
-app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
+app.use(cors({
+    origin: function (origin, callback) {
+        // Allow requests with no origin (like mobile apps or curl)
+        if (!origin) return callback(null, true);
+        
+        const isLocalhost = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
+        const isVercelApp = /^https:\/\/shyampari-edutech-pvt-ltd.*\.vercel\.app$/.test(origin);
+        const isAllowedOrigin = allowedOrigins.includes(origin);
+        
+        if (isLocalhost || isVercelApp || isAllowedOrigin) {
+            callback(null, true);
+        } else {
+            callback(null, false);
+        }
+    },
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true
+}));
 app.use(express.json());
 
 // Routes
