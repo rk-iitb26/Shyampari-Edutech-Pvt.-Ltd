@@ -19,6 +19,8 @@ const allowedOrigins = [
     "http://127.0.0.1:3000",
     "https://shyampari-edutech-pvt-ltd-delta.vercel.app",
     "https://shyampari-edutech-pvt-ltd-xrb1.vercel.app",
+    "https://shyampariedtech.com",
+    "https://www.shyampariedtech.com"
 ];
 
 app.use(cors({
@@ -28,9 +30,10 @@ app.use(cors({
         
         const isLocalhost = /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
         const isVercelApp = /^https:\/\/shyampari-edutech-pvt-ltd.*\.vercel\.app$/.test(origin);
+        const isCustomDomain = /^https:\/\/(www\.)?shyampariedtech\.com$/.test(origin);
         const isAllowedOrigin = allowedOrigins.includes(origin);
         
-        if (isLocalhost || isVercelApp || isAllowedOrigin) {
+        if (isLocalhost || isVercelApp || isCustomDomain || isAllowedOrigin) {
             callback(null, true);
         } else {
             callback(null, false);
